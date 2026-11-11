@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Estelar.css"/>
+</head>
+<body>
+  <h1>Su llegada</h1>
+  <li class="lista">
+    <ul>
+    <li>Escribe el nombre del "Ser Estelar" que más te llame la atención</li>
+    </ul>
+  <ol>
+    <li>Arcturianos</li>
+    <li>Andromedianos</li>
+    <li>Indigos</li>
+    <li>Paladorianos</li>
+    <li>Sirianos</li>
+  </ol> 
+    </li>
+  <!-- Formulario y contenedor para el buscador estelar -->
+<div class="buscador-estelar-box">
+  <form id="starForm" class="star-form">
+    <input type="text" id="starInput" placeholder="Escribe un ser estelar (ej. Arcadianos)..." required />
+    <br>
+    <button type="submit">Respuesta</button>
+  </form>
+
+  <div id="resultContainer" class="star-result hidden">
+    <h3 id="beingName"></h3>
+    <p><strong>Origen:</strong> <span id="beingOrigin"></span></p>
+    <p><strong>Características:</strong> <span id="beingFeatures"></span></p>
+    <p><strong>¿Por qué vino?:</strong> <span id="beingReason"></span></p>
+    <p><strong>Propósito:</strong> <span id="beingPurpose"></span></p>
+  </div>
+  </div>
+  <div style="width: 200px; height: 150px; border: 3px solid black; overflow: hidden;">
+  
+  <marquee behavior="alternate" direction="down" height="300" scrollamount="5">
+    <marquee behavior="alternate" direction="right" scrollamount="5">
+      <img src="conexión.jpg" width="150" height="150">
+    </marquee>
+  </marquee>
+
+</div>
+  <br>
+  <p>La imagen rebota jsjsjs</p>
+     <nav>
+    <a href="Contenido.html" class="boton">Sobre los Seres Estelares</a>
+    <br>
+  <a href="index.html" class="boton">Regresar al inicio</a>
+    <br>
+  <a href="Contacto.html" class="boton">Comenta tu opinión</a>
+    <br>
+  <a href="Final.html" class="boton">Enlaces</a>
+</nav>
+    <!-- Aquí conectas tu archivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
