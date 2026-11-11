@@ -1,0 +1,213 @@
+h1{
+  text-align:center;
+  color:white;
+  background-color:rosybrown;
+  border-radius:4px ;
+}
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(Estelar.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-attachment: fixed; 
+}
+.boton {
+  background: palevioletred;
+  color: pink;
+  padding: 30px 40px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  display: inline-block;
+}
+nav{
+  text-align:center;
+  font-family: ;
+}
+p{
+  color:white;
+}
+.texto{
+  background: azure;
+  color: black;
+  padding: 30px 40px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 5px;
+  display: inline-block;
+}
+.nitido{
+  width: 60%;
+  height: 50%;
+  border-radius: 8px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lista{
+   background: #FF6347; 
+  padding: 15px 30px;
+  border-radius: 4px; 
+  border-left: 5px solid #000000; 
+}
+.buscador-estelar-box {
+  max-width: 450px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.star-form {
+  display: center;
+  gap: 8px;
+}
+
+.star-form input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.star-form button {
+  padding: 10px 16px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.star-form button:hover {
+  background-color: #4338ca;
+}
+
+.star-result {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #48D1CC;
+  border-radius: 6px;
+  background-color: #000000;
+  color: #333;
+}
+
+.star-result h3 {
+  margin-top: 0;
+  color: #4f46e5;
+}
+
+.star-result p {
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-container {
+  background-color: #FFA07A;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-container h2 {
+  margin-top: 0;
+  color: #000000;
+}
+
+.form-container p {
+  color: #000000;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #A52A2A;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #DB7093; 
+  outline: none;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff0000; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #cc0000;
+}
+a:hover {
+  color: antiquewhite;
+}
+a{
+  text-decoration: underline;
+  font-size: 18px;
+  display: inline-block; 
+  margin: 10px 10px 0 0; 
+  padding: 10px 18px; 
+  background: #FFE4B5; 
+  color: black; 
+  text-decoration: none; 
+  border-radius: 6px; }
+}
+footer{
+  background-color: #D3D3D3; 
+  display: inline-block;
+  color: maroon;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+}
+footer  {
+  font-family: Arial, sans-serif; 
+  font-size: 15px;
+  font-weight: bold; 
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #87CEFA;
+  color: black;
+  width: 100%;
+  padding: 15px;
+}
+
+footer a:hover {
+  color: cadetblue ; 
+}
+
+
